@@ -1,0 +1,95 @@
+@import url("../CSS/main.css");
+@import url("./plans.css");
+@import url("./about.css");
+.products-hero-section {
+  background: url("../assets/images/products-images/product-bg.png") no-repeat
+    center;
+  min-height: 100vh;
+}
+
+.product-banner-link-3,
+.product-banner-link-2 {
+  margin-left: -5rem;
+}
+.product-underline {
+  width: 200px;
+  transform: translateX(25%);
+}
+.products-details-section {
+  margin-block: 2.5rem;
+  padding-inline: 2.5rem;
+}
+.products-items-box {
+  margin-block: 1.5rem;
+}
+.single-product-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-block: 1rem;
+}
+.single-product-item p {
+  font-size: 1rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.product-img-box {
+  margin-bottom: 1rem;
+}
+.dotted-separator {
+  font-size: 2rem;
+  display: none;
+}
+@media screen and (max-width: 360px) {
+  .product-customer-link {
+    width: 200px;
+  }
+}
+
+@media screen and (min-width: 760px) {
+  .product-img-box {
+    display: flex;
+    gap: 2rem;
+  }
+  .dotted-separator {
+    display: block;
+  }
+  .products-items-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    justify-content: center;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .products-items-box {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+/*Feedback Section*/
+.feedback-section {
+  padding-inline: 1rem;
+  margin-block: 2.5rem;
+}
+.feedback-img {
+  width: 100px;
+  height: 100px;
+  margin-top: 1.5rem;
+}
+.products-quote-box {
+  padding-left: 1.5rem;
+  min-width: 400px;
+}
+.products-profile {
+  margin-left: 7rem;
+  margin-top: -3rem;
+}
+
+.clients-feedback-box {
+  display: flex;
+  overflow: scroll;
+  overscroll-behavior: smooth;
+  gap: 2rem;
+  justify-content: center;
+}

@@ -1,0 +1,100 @@
+@import url("../CSS/main.css");
+@import url("./plans.css");
+@import url("./about.css");
+.contact-hero-section {
+  background: url("../assets/images/contact-images/contact-bg.png") no-repeat
+    center;
+  min-height: 100vh;
+}
+.contact-banner-link-2 {
+  margin-left: -5rem;
+}
+
+.contact-details-box h5 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+.contact-text p {
+  max-width: 85vw;
+  line-height: 1.5;
+  text-align: justify;
+}
+.single-contact-item-box {
+  margin-block: 2rem;
+}
+.address,
+.email-text,
+.call-text {
+  color: var(--lightGreen);
+  text-align: left;
+  margin-left: 2.5rem;
+  margin-bottom: 0.2rem;
+  font-size: 1.2rem;
+}
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+.contact-item i {
+  color: var(--lightGreen);
+}
+
+/* Contact Info*/
+.contact-info {
+  margin-block: 4rem;
+  padding-inline: 1rem;
+}
+.contact-form h4 {
+  font-size: 1.5rem;
+}
+.form-control {
+  margin-block: 2rem;
+}
+.contact-form {
+  margin-block: 2rem;
+}
+
+.contact-input {
+  border-width: 0 0 1.5px;
+  border-color: var(--textColor);
+}
+.contact-form textarea {
+  width: 100%;
+  height: 100px;
+  padding-left: 1rem;
+  padding-top: 4rem;
+  outline: none;
+  border-width: 0 0 2px;
+}
+.contact-form button {
+  width: 100%;
+  height: 50px;
+  background: var(--blackColor);
+  color: var(--whiteColor);
+  font-family: var(--linkTextFont);
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 3rem;
+  transition: var(--transition);
+  border: none;
+}
+.contact-form button:hover {
+  background: var(--lightGreen);
+}
+
+@media screen and (min-width: 760px) {
+  .contact-info {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+  }
+  .inputs-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+  .contact-text p {
+    max-width: 45vw;
+  }
+}

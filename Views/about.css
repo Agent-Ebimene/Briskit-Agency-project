@@ -1,0 +1,68 @@
+@import url("../CSS/main.css");
+@import url("./plans.css");
+
+.about-hero-section {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)),
+    url("../assets/images/about-images/about-us-bg.png") no-repeat center;
+}
+.about-banner-link-2 {
+  margin-left: -5.5rem;
+}
+.about-company-text {
+  max-width: 60rem;
+  line-height: 1.8;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 1.2rem;
+}
+.about-team-hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)),
+    url("../assets/images/about-images/about-us-1-content.png") no-repeat center
+      center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.about-team-hero-text h1 {
+  color: var(--whiteColor);
+  font-size: 4rem;
+}
+
+.about-team-hero-text a {
+  display: inline-block;
+  margin-top: 13rem;
+  width: 300px;
+  border: 2px solid var(--lightGreen);
+  height: 50px;
+  color: var(--lightGreen);
+  transition: var(--transition);
+  display: flex;
+  justify-content: center;
+}
+.about-team-hero-text a:hover {
+  background: var(--lightGreen);
+  color: var(--whiteColor);
+}
+.about-faq-section {
+  margin-block: 3rem;
+}
+.blog-title {
+  margin-block: 0.2rem;
+}
+.blog-title a {
+  font-size: 1.3rem;
+  color: var(--blackColor);
+  font-weight: bold;
+}
+
+.about-blog-box {
+  margin-top: 1.5rem;
+  display: flex;
+}
+.blog-author {
+  display: flex;
+  gap: 0.5rem;
+}

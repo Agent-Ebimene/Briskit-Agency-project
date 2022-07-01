@@ -1,0 +1,22 @@
+@import url("../CSS/main.css");
+@import url("./plans.css");
+
+.faq-hero-section {
+  background: url("../assets/images/faq-images/faq-bg.png") no-repeat center;
+  min-height: 100vh;
+}
+
+.faq-banner-link-2 {
+  margin-left: -5.5rem;
+}
+
+.faq-questions {
+  margin-block: 3rem;
+  padding: 1.5rem;
+}
+
+@media screen and (min-width: 760px) {
+  .faq-questions {
+    padding-inline: 25%;
+  }
+}

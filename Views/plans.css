@@ -1,0 +1,40 @@
+@import url("../CSS/main.css");
+.plans-link-box {
+  width: 300px;
+}
+
+.plans-hero-section {
+  background: url("../assets/images/plans-images/plan-bg.png") no-repeat center
+    center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 100vh;
+  position: relative;
+}
+.plans-hero-section p {
+  font-size: 1rem;
+  max-width: 60vw;
+}
+.plans-banner-links-box {
+  position: absolute;
+  bottom: 0;
+}
+.plans-banner-list {
+  display: flex;
+}
+.plans-banner-list a {
+  background: transparent;
+  border: none;
+  color: var(--blackColor);
+}
+.plans-banner-link-2 {
+  margin-left: -6rem;
+}
+.plan-banner-underline {
+  width: 120px;
+  height: 2px;
+  transform: translateX(45%);
+  background: var(--blackColor);
+}
